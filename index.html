@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atalay Sezen </title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+    <div class="preloader" id="loader">
+        <div class="main">
+            <svg class="circle-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path
+                    d="M221.5 51.7C216.6 39.8 204.9 32 192 32s-24.6 7.8-29.5 19.7l-120 288-40 96c-6.8 16.3 .9 35 17.2 41.8s35-.9 41.8-17.2L93.3 384H290.7l31.8 76.3c6.8 16.3 25.5 24 41.8 17.2s24-25.5 17.2-41.8l-40-96-120-288zM264 320H120l72-172.8L264 320z" />
+            </svg>
+            <div class="circle">
+
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <nav>
+            <a href="./index.html" class="logo">
+                <svg class="navbar-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path
+                        d="M221.5 51.7C216.6 39.8 204.9 32 192 32s-24.6 7.8-29.5 19.7l-120 288-40 96c-6.8 16.3 .9 35 17.2 41.8s35-.9 41.8-17.2L93.3 384H290.7l31.8 76.3c6.8 16.3 25.5 24 41.8 17.2s24-25.5 17.2-41.8l-40-96-120-288zM264 320H120l72-172.8L264 320z" />
+                </svg>
+            </a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="wrapper">
+
+        <div class="hero-section section-flex" id="home">
+            <div class="content-hero">
+                <h1 class="header-hero">Hi, my name is</h1>
+                <h2 class="header-name">Atalay Sezen</h2>
+                <h3 class="header-content">I develop things for the web.</h3>
+            </div>
+        </div>
+
+        <!---ABOUT-->
+        <div class="section-content section-flex" id="about">
+            <div class="content-about">
+                <h1 class="header-about">About Me</h1>
+                <p class="about-first content-line">
+                    Hi,
+                </p>
+
+                <p class="about-text content-line">I'm Atalay. My interest in software first started when I was 7 years
+                    old when I met the computer. Later
+                    on, I started editing the html of the websites I browsed and writing tiny JavaScript codes. After
+                    that,
+                    for certain reasons, I could not start the software career that had been my dream since I was
+                    little.
+                </p>
+                <p class="about-text content-line">
+                    Previously, I tried starting careers in different fields throughout my life. But when I realized
+                    that
+                    this is not what I wanted, I started my journey to become a Frontend Developer with my own means.
+                    Then,
+                    after a long internship period, I have been working actively for more than 1 year now and I continue
+                    to
+                    make plans and realize these plans every day to convey myself.
+                </p>
+
+
+                <div class="skills-content">
+                    <p class="skill-text about-text content-line">
+                        Here are a few technologies I’ve been working with recently:
+                    </p>
+                    <ul class="skills-list">
+                        <li>JavaScript(ES6+)</li>
+                        <li>TypeScript</li>
+                        <li>Angular</li>
+                        <li>Node.js</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>SASS</li>
+                        <li>Tailwind CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Git</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <!---ABOUT-->
+
+        <!---Projeler-->
+        <div class="section-content section-projects" id="projects">
+            <div class="content-projects">
+                <h1 class="header-projects">Projects</h1>
+            </div>
+
+            <div class="projects-list">
+
+                <div class="project-card">
+                    <div class="card-inner">
+
+                        <div class="card-links tooltip">
+                            <a target="_blank" href="https://github.com/AtalaySezen/CamperFinder-Website">
+                                <svg class="link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </a>
+
+                            <a target="_blank" href="https://camperfinder.org/">
+                                <svg class="link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                </svg>
+
+                            </a>
+
+                        </div>
+                        <div class="card-upcontent">
+                            <h2 class="card-header">CamperFinder</h2>
+                        </div>
+                        <div class="card-subcontent">
+                            <p class="content-text">I used HTML&CSS and JavaScript on the user side in this project
+                                which consists of more than one page and has a Admin
+                                panel. In the admin panel, I preferred Angular 15. On the backend, I used
+                                node.js and MongoDB on this project.</p>
+                        </div>
+                        <div class="tags-flex">
+                            <ul class="tags">
+                                <li class="tag">
+                                    <a href="javascript:void">HTML&CSS</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">JavaScript</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Angular</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Node.js</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="project-card">
+                    <div class="card-inner">
+
+                        <div class="card-links tooltip">
+
+                            <a target="_blank" href="http://anibadger.com/">
+                                <svg class="link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                </svg>
+
+                            </a>
+
+                        </div>
+                        <div class="card-upcontent">
+                            <h2 class="card-header">AniBadger</h2>
+                        </div>
+                        <div class="card-subcontent">
+                            <p class="content-text">In the project that I completed with Bootstrap and JavaScript, I
+                                developed the admin panel with Angular 14.</p>
+                        </div>
+                        <div class="tags-flex">
+                            <ul class="tags">
+                                <li class="tag">
+                                    <a href="javascript:void">HTML&CSS</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">JavaScript</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Angular</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Node.js</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+                <!--İlk kart bitiş-->
+                <div class="project-card">
+                    <div class="card-inner">
+
+                        <div class="card-links tooltip">
+
+                            <a target="_blank" href="https://ayulahealthgroup.com/">
+                                <svg class="link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                </svg>
+
+                            </a>
+
+                        </div>
+                        <div class="card-upcontent">
+                            <h2 class="card-header">Ayula Health Group</h2>
+                        </div>
+                        <div class="card-subcontent">
+                            <p class="content-text">In the project that I completed with Bootstrap and JavaScript, I
+                                developed the admin panel with Angular 14.</p>
+                        </div>
+                        <div class="tags-flex">
+                            <ul class="tags">
+                                <li class="tag">
+                                    <a href="javascript:void">HTML&CSS</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">JavaScript</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Angular</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Node.js</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="project-card">
+                    <div class="card-inner">
+
+                        <div class="card-links tooltip">
+
+                            <a target="_blank" href="https://personova.com.tr/">
+                                <svg class="link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                </svg>
+
+                            </a>
+
+                        </div>
+                        <div class="card-upcontent">
+                            <h2 class="card-header">Baltaş Personova</h2>
+                        </div>
+                        <div class="card-subcontent">
+                            <p class="content-text">I used Bootstrap and JavaScript in this single page project.</p>
+                        </div>
+                        <div class="tags-flex">
+                            <ul class="tags">
+                                <li class="tag">
+                                    <a href="javascript:void">HTML&CSS</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">JavaScript</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Angular</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Node.js</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+                <!---SON-->
+                <div class="project-card">
+                    <div class="card-inner">
+                        <div class="card-links tooltip">
+                            <a target="_blank" href="https://github.com/AtalaySezen?tab=repositories">
+                                <svg class="link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </a>
+                            <a target="_blank" href="https://customer-management-service.web.app/login">
+                                <svg class="link-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" />
+                                </svg>
+
+                            </a>
+
+                        </div>
+                        <div class="card-upcontent">
+                            <h2 class="card-header">Customer Management App</h2>
+                        </div>
+                        <div class="card-subcontent">
+                            <p class="content-text">I created this project to learn how to use firebase. I created a
+                                simple admin panel with Angular 14.</p>
+                        </div>
+                        <div class="tags-flex">
+                            <ul class="tags">
+                                <li class="tag">
+                                    <a href="javascript:void">HTML&CSS</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">JavaScript</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Angular</a>
+                                </li>
+                                <li class="tag">
+                                    <a href="javascript:void">Node.js</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+                <!---SON-->
+
+
+
+                <div class="button-flex">
+                    <a target="_blank" href="https://github.com/AtalaySezen" class="btn-load">
+                        Show More
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!---Projeler-->
+
+
+        <!--İletişim-->
+        <div class="section-content section-contact" id="contact">
+            <div class="contents-contact">
+
+                <h2 class="header-contact">
+                    Get In Touch
+                </h2>
+                <p class="contact-text">My inbox is always open. Whether you have a question or just want to say hi,
+                    I’ll
+                    try my best to get back to you!</p>
+            </div>
+
+            <form autocomplete="off">
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input type="text" id="nameInput">
+                </div>
+                <div class="form-group">
+                    <label for="">E-mail</label>
+                    <input type="text" id="emailInput">
+                </div>
+                <div class="form-group">
+                    <label for="">Message</label>
+                    <textarea id="messsageInput" class="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button class="btn-send" id="btn-send">
+                    Send
+                </button>
+
+
+
+            </form>
+        </div>
+        <!--SİDEBARS-->
+        <section class="sidebar">
+
+            <div id="sidebar-left">
+                <div class="contact-sidebar">
+                    <!--Github-->
+                    <a href="https://github.com/AtalaySezen" target="_blank">
+                        <svg class="sidebar-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                    </a>
+                    <!--github-->
+                    <!--instagram-->
+                    <a href="https://www.instagram.com/atalaysezenn/" target="_blank">
+                        <svg class="sidebar-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg>
+                    </a>
+                    <!--instagram-->
+                    <!--twitter-->
+                    <a href="https://twitter.com/AtalaySezen4" target="_blank">
+                        <svg class="sidebar-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path
+                                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                        </svg>
+                    </a>
+                    <!--twitter-->
+                    <!--linkedin-->
+                    <a href="https://www.linkedin.com/in/atalay-sezen-905001228/" target="_blank">
+                        <svg class="sidebar-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </a>
+                    <!--linkedin-->
+
+                </div>
+                <p id="test"></p>
+            </div>
+
+            <div id="sidebar-right">
+                <div class="contact-sidebar">
+                    <a class="mail-vertical" href="mailto:atalaysezen@yahoo.com.tr">atalaysezen@yahoo.com.tr</a>
+                </div>
+            </div>
+            <!--SİDEBARS-->
+        </section>
+        <!---iletişim-->
+    </section>
+
+
+    <footer>
+        <div class="footer-icons">
+            <!--Github-->
+            <a href="https://github.com/AtalaySezen" target="_blank">
+                <svg class="sidebar-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                    <path
+                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                </svg>
+            </a>
+            <!--github-->
+            <!--instagram-->
+            <a href="https://www.instagram.com/atalaysezenn/" target="_blank">
+                <svg class="sidebar-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                </svg>
+            </a>
+            <!--instagram-->
+            <!--twitter-->
+            <a href="https://twitter.com/AtalaySezen4" target="_blank">
+                <svg class="sidebar-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                </svg>
+            </a>
+            <!--twitter-->
+            <!--linkedin-->
+            <a href="https://www.linkedin.com/in/atalay-sezen-905001228/" target="_blank">
+                <svg class="sidebar-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                </svg>
+            </a>
+            <!--linkedin-->
+        </div>
+        <div class="footer-content">
+            <p class="footer-text">
+                Designed & Built by Atalay Sezen
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8M3XP7W2Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-M8M3XP7W2Y');
+    </script>
+    <script src="./assets/scripts/app.js"></script>
+</body>
+
+</html>
